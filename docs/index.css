@@ -1,0 +1,59 @@
+body {
+    background: rgb(60,60,59);
+    background: linear-gradient(90deg, rgba(60,60,59,1) 35%, rgba(52,64,58,1) 100%);
+}
+
+.titleDiv {
+    text-align: center;
+}
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.siteTextDiv {
+    background: #01d758;
+    text-align: center;
+    padding: 20px;
+    border: 2px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.siteTextDiv:hover {
+    padding: 18px;
+}
+
+.siteText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 5%;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.footer:hover {
+    opacity: 50%;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+.footerText {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
